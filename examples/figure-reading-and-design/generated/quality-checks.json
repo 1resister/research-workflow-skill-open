@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "case_count": 4,
+  "conditions": "identical saved V/A/J limits; own minimum duration in each fixed shape",
+  "checks": {
+    "finite_positive_data": true,
+    "distance_matches_case_ids": true,
+    "duration_matches_saved_bounds": true,
+    "relative_change_computed_from_saved_data": true,
+    "svg_xml_parses": true
+  },
+  "unverified": [
+    "independent numerical verification is in the original trajectory example, not rerun by this renderer",
+    "hardware or closed-loop performance",
+    "target-journal typography and physical print size",
+    "formal color-vision simulation"
+  ]
+}

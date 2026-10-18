@@ -1,0 +1,84 @@
+{
+  "checked_on": "2026-10-18",
+  "python": "3.14.7",
+  "checks": {
+    "uncleared_gate_blocks": {
+      "passed": true,
+      "exit_code": 2
+    },
+    "skill_format": {
+      "passed": true,
+      "output": "Skill is valid!",
+      "tool": "skill-creator/quick_validate.py"
+    },
+    "behavioral_tests": {
+      "passed": true,
+      "tests": 13,
+      "command": "python -m unittest discover -s tests -v"
+    },
+    "saved_numerical_audit": {
+      "passed": true,
+      "checks_passed": 201,
+      "checks_total": 201,
+      "method": "Independent coefficient evaluation and derivative-root isolation; floating-point numerical audit, not formal proof."
+    },
+    "fresh_numerical_audit": {
+      "passed": true,
+      "checks_passed": 201,
+      "checks_total": 201,
+      "method": "Independent coefficient evaluation and derivative-root isolation; floating-point numerical audit, not formal proof."
+    },
+    "trajectory_determinism": {
+      "passed": true,
+      "csv_svg_files": 26,
+      "note": "Run timestamps and manifest paths excluded from byte comparison."
+    },
+    "saved_run_integrity": {
+      "passed": true,
+      "output_hashes": 34,
+      "script_hashes": 2
+    },
+    "figure_determinism": {
+      "passed": true,
+      "svg_csv_check_files": 4,
+      "script_and_input_hashes_checked": true
+    },
+    "figure_previews": {
+      "passed": true,
+      "previews": 2,
+      "visual_review_date": "2026-10-17",
+      "note": "Existing rendered PNGs retained without alteration; this release reruns SVG/data generation, not the browser export."
+    },
+    "figure_rows_match_summary": {
+      "passed": true,
+      "rows": 4,
+      "fields_per_row": 6
+    },
+    "local_markdown_links": {
+      "passed": true,
+      "links_checked": 51,
+      "broken": []
+    },
+    "known_source_files_excluded": {
+      "passed": true,
+      "known_sha256_checked": 60,
+      "matches": [],
+      "limitation": "Byte-identical files only; manual content scope review is separate."
+    },
+    "privacy_pattern_scan": {
+      "passed": true,
+      "files_scanned": 66,
+      "matches": [],
+      "limitation": "Common credential and personal-path patterns, not an exhaustive secret detector."
+    },
+    "manual_content_review": {
+      "passed": true,
+      "scope": "Original-only boundary, attribution, scientific claims, and excluded private/source records reviewed independently."
+    },
+    "reviewed_public_gate": {
+      "passed": true,
+      "exit_code": 0
+    }
+  },
+  "overall_passed": true
+}

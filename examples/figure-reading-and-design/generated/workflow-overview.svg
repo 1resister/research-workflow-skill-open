@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="700" viewBox="0 0 1280 700" role="img" aria-labelledby="title description">
+<title id="title">Motion research workflow</title>
+<desc id="description">Six implemented stages lead from a defined single-axis task to checked calculations and plots. A dashed arrow leads to hardware validation, which is planned and was not executed.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif} *{box-sizing:border-box}</style>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2563EB"/></marker><marker id="planned" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#697586"/></marker></defs>
+<text x="48" y="50" font-size="28" fill="#172033" text-anchor="start" font-weight="700">From a motion question to checked evidence</text>
+<text x="48" y="84" font-size="18" fill="#526174" text-anchor="start" font-weight="400">Single-axis teaching example: implemented computation and explicitly planned validation</text>
+<rect x="60" y="140" width="340" height="140" rx="12" fill="#F5F8FF" stroke="#AABFE8" stroke-width="1.5"/>
+<text x="78" y="171" font-size="19" fill="#172033" text-anchor="start" font-weight="700">1  Freeze the motion task</text>
+<text x="78" y="205" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Rest to rest; one linear axis</text>
+<text x="78" y="230" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Travel: 1 / 10 / 100 / 1000 mm</text>
+<text x="78" y="255" font-size="16" fill="#172033" text-anchor="start" font-weight="400">V=0.5 m/s; A=1 m/s²; J=20 m/s³</text>
+<rect x="460" y="140" width="340" height="140" rx="12" fill="#F5F8FF" stroke="#AABFE8" stroke-width="1.5"/>
+<text x="478" y="171" font-size="19" fill="#172033" text-anchor="start" font-weight="700">2  Specify the fixed shapes</text>
+<text x="478" y="205" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Quintic and septic time laws</text>
+<text x="478" y="230" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Rest joins: C² versus C³</text>
+<text x="478" y="255" font-size="16" fill="#172033" text-anchor="start" font-weight="400">State the endpoint jerk policy</text>
+<rect x="860" y="140" width="340" height="140" rx="12" fill="#F5F8FF" stroke="#AABFE8" stroke-width="1.5"/>
+<text x="878" y="171" font-size="19" fill="#172033" text-anchor="start" font-weight="700">3  Calculate feasible duration</text>
+<text x="878" y="205" font-size="16" fill="#172033" text-anchor="start" font-weight="400">T = max(Tv, Ta, Tj)</text>
+<text x="878" y="230" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Identical kinematic limits</text>
+<text x="878" y="255" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Own minimum / common duration</text>
+<rect x="60" y="355" width="340" height="140" rx="12" fill="#F5F8FF" stroke="#AABFE8" stroke-width="1.5"/>
+<text x="78" y="386" font-size="19" fill="#172033" text-anchor="start" font-weight="700">4  Save auditable outputs</text>
+<text x="78" y="420" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Sample position, velocity, a, jerk</text>
+<text x="78" y="445" font-size="16" fill="#172033" text-anchor="start" font-weight="400">CSV trajectories + JSON summary</text>
+<text x="78" y="470" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Record input, code and versions</text>
+<rect x="460" y="355" width="340" height="140" rx="12" fill="#F5F8FF" stroke="#AABFE8" stroke-width="1.5"/>
+<text x="478" y="386" font-size="19" fill="#172033" text-anchor="start" font-weight="700">5  Check the actual evidence</text>
+<text x="478" y="420" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Critical points and endpoints</text>
+<text x="478" y="445" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Coefficient and sample checks</text>
+<text x="478" y="470" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Saved example: 201 checks passed</text>
+<rect x="860" y="355" width="340" height="140" rx="12" fill="#F5F8FF" stroke="#AABFE8" stroke-width="1.5"/>
+<text x="878" y="386" font-size="19" fill="#172033" text-anchor="start" font-weight="700">6  Interpret and communicate</text>
+<text x="878" y="420" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Separate comparison conditions</text>
+<text x="878" y="445" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Label units, scales and legends</text>
+<text x="878" y="470" font-size="16" fill="#172033" text-anchor="start" font-weight="400">Report the supported claim only</text>
+<line x1="407.000" y1="210.000" x2="451.000" y2="210.000" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="807.000" y1="210.000" x2="851.000" y2="210.000" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="407.000" y1="425.000" x2="451.000" y2="425.000" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="807.000" y1="425.000" x2="851.000" y2="425.000" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1030 280 V315 H230 V347" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="1030.000" y1="495.000" x2="1030.000" y2="553.000" stroke="#697586" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#planned)"/>
+<rect x="860" y="560" width="340" height="92" rx="12" fill="#FAFBFC" stroke="#697586" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="878" y="590" font-size="17" fill="#172033" text-anchor="start" font-weight="700">Closed-loop / hardware validation</text>
+<text x="878" y="619" font-size="15" fill="#526174" text-anchor="start" font-weight="400">Planned; not executed in this example</text>
+<line x1="60.000" y1="584.000" x2="110.000" y2="584.000" stroke="#2563EB" stroke-width="2.5" />
+<text x="124" y="590" font-size="17" fill="#172033" text-anchor="start" font-weight="400">Implemented computation</text>
+<line x1="60.000" y1="621.000" x2="110.000" y2="621.000" stroke="#697586" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="124" y="627" font-size="17" fill="#172033" text-anchor="start" font-weight="400">Planned validation</text>
+</svg>

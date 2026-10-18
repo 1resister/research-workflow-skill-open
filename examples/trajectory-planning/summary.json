@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "experiment": "fixed_shape_polynomial_duration_comparison",
+  "units": {
+    "position": "m",
+    "time": "s"
+  },
+  "limits": {
+    "velocity": 0.5,
+    "acceleration": 1.0,
+    "jerk": 20.0
+  },
+  "dimensionless_peaks": {
+    "quintic": {
+      "velocity": 1.875,
+      "acceleration": 5.773502691896258,
+      "jerk": 60.0
+    },
+    "septic": {
+      "velocity": 2.1875,
+      "acceleration": 7.513188404399293,
+      "jerk": 52.5
+    }
+  },
+  "duration_scope": "minimum feasible duration within each fixed polynomial shape; not global time optimality",
+  "endpoint_jerk_policy": "quintic: one-sided values on the moving interval, undefined classical jerk at rest joins; septic: zero and continuous at rest joins",
+  "cases": [
+    {
+      "id": "move_1mm",
+      "start_m": 0.0,
+      "end_m": 0.001,
+      "displacement_m": 0.001,
+      "common_duration_s": 0.14422495703074084,
+      "families": {
+        "quintic": {
+          "minimum_duration_s": 0.14422495703074084,
+          "duration_bounds_s": {
+            "velocity_s": 0.00375,
+            "acceleration_s": 0.07598356856515925,
+            "jerk_s": 0.14422495703074084
+          },
+          "active_constraints": [
+            "jerk"
+          ],
+          "minimum": {
+            "duration_s": 0.14422495703074084,
+            "peak_absolute": {
+              "velocity_m_s": 0.0130005238940744,
+              "acceleration_m_s2": 0.27756105921853474,
+              "jerk_m_s3": 20.0
+            },
+            "csv": "csv/move_1mm-quintic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 0.14422495703074084,
+            "peak_absolute": {
+              "velocity_m_s": 0.0130005238940744,
+              "acceleration_m_s2": 0.27756105921853474,
+              "jerk_m_s3": 20.0
+            },
+            "csv": "csv/move_1mm-quintic-common.csv",
+            "samples": 1001
+          }
+        },
+        "septic": {
+          "minimum_duration_s": 0.13794620881905603,
+          "duration_bounds_s": {
+            "velocity_s": 0.004375,
+            "acceleration_s": 0.08667865022252766,
+            "jerk_s": 0.13794620881905603
+          },
+          "active_constraints": [
+            "jerk"
+          ],
+          "minimum": {
+            "duration_s": 0.13794620881905603,
+            "peak_absolute": {
+              "velocity_m_s": 0.01585763043962551,
+              "acceleration_m_s2": 0.39482508820197154,
+              "jerk_m_s3": 20.0
+            },
+            "csv": "csv/move_1mm-septic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 0.14422495703074084,
+            "peak_absolute": {
+              "velocity_m_s": 0.015167277876420136,
+              "acceleration_m_s2": 0.3611964249294494,
+              "jerk_m_s3": 17.5
+            },
+            "csv": "csv/move_1mm-septic-common.csv",
+            "samples": 1001
+          }
+        }
+      }
+    },
+    {
+      "id": "move_10mm",
+      "start_m": 0.0,
+      "end_m": 0.01,
+      "displacement_m": 0.01,
+      "common_duration_s": 0.3107232505953859,
+      "families": {
+        "quintic": {
+          "minimum_duration_s": 0.3107232505953859,
+          "duration_bounds_s": {
+            "velocity_s": 0.0375,
+            "acceleration_s": 0.24028114141347545,
+            "jerk_s": 0.3107232505953859
+          },
+          "active_constraints": [
+            "jerk"
+          ],
+          "minimum": {
+            "duration_s": 0.3107232505953859,
+            "peak_absolute": {
+              "velocity_m_s": 0.06034308653785185,
+              "acceleration_m_s2": 0.5979871745824052,
+              "jerk_m_s3": 19.999999999999993
+            },
+            "csv": "csv/move_10mm-quintic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 0.3107232505953859,
+            "peak_absolute": {
+              "velocity_m_s": 0.06034308653785185,
+              "acceleration_m_s2": 0.5979871745824052,
+              "jerk_m_s3": 19.999999999999993
+            },
+            "csv": "csv/move_10mm-quintic-common.csv",
+            "samples": 1001
+          }
+        },
+        "septic": {
+          "minimum_duration_s": 0.2971960976381565,
+          "duration_bounds_s": {
+            "velocity_s": 0.043750000000000004,
+            "acceleration_s": 0.2741019592122481,
+            "jerk_s": 0.2971960976381565
+          },
+          "active_constraints": [
+            "jerk"
+          ],
+          "minimum": {
+            "duration_s": 0.2971960976381565,
+            "peak_absolute": {
+              "velocity_m_s": 0.07360460037612387,
+              "acceleration_m_s2": 0.8506248665172256,
+              "jerk_m_s3": 19.999999999999993
+            },
+            "csv": "csv/move_10mm-septic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 0.3107232505953859,
+            "peak_absolute": {
+              "velocity_m_s": 0.07040026762749384,
+              "acceleration_m_s2": 0.7781741077835028,
+              "jerk_m_s3": 17.499999999999996
+            },
+            "csv": "csv/move_10mm-septic-common.csv",
+            "samples": 1001
+          }
+        }
+      }
+    },
+    {
+      "id": "move_100mm",
+      "start_m": 0.0,
+      "end_m": 0.1,
+      "displacement_m": 0.1,
+      "common_duration_s": 0.8667865022252765,
+      "families": {
+        "quintic": {
+          "minimum_duration_s": 0.7598356856515927,
+          "duration_bounds_s": {
+            "velocity_s": 0.375,
+            "acceleration_s": 0.7598356856515927,
+            "jerk_s": 0.6694329500821695
+          },
+          "active_constraints": [
+            "acceleration"
+          ],
+          "minimum": {
+            "duration_s": 0.7598356856515927,
+            "peak_absolute": {
+              "velocity_m_s": 0.2467638774285923,
+              "acceleration_m_s2": 0.9999999999999998,
+              "jerk_m_s3": 13.67704234172866
+            },
+            "csv": "csv/move_100mm-quintic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 0.8667865022252765,
+            "peak_absolute": {
+              "velocity_m_s": 0.21631624341015526,
+              "acceleration_m_s2": 0.7684490766284559,
+              "jerk_m_s3": 9.213291902904727
+            },
+            "csv": "csv/move_100mm-quintic-common.csv",
+            "samples": 1001
+          }
+        },
+        "septic": {
+          "minimum_duration_s": 0.8667865022252765,
+          "duration_bounds_s": {
+            "velocity_s": 0.4375,
+            "acceleration_s": 0.8667865022252765,
+            "jerk_s": 0.6402895824937471
+          },
+          "active_constraints": [
+            "acceleration"
+          ],
+          "minimum": {
+            "duration_s": 0.8667865022252765,
+            "peak_absolute": {
+              "velocity_m_s": 0.2523689506451811,
+              "acceleration_m_s2": 1.0,
+              "jerk_m_s3": 8.061630415041636
+            },
+            "csv": "csv/move_100mm-septic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 0.8667865022252765,
+            "peak_absolute": {
+              "velocity_m_s": 0.2523689506451811,
+              "acceleration_m_s2": 1.0,
+              "jerk_m_s3": 8.061630415041636
+            },
+            "csv": "csv/move_100mm-septic-common.csv",
+            "samples": 1001
+          }
+        }
+      }
+    },
+    {
+      "id": "move_1000mm",
+      "start_m": 0.0,
+      "end_m": 1.0,
+      "displacement_m": 1.0,
+      "common_duration_s": 4.375,
+      "families": {
+        "quintic": {
+          "minimum_duration_s": 3.75,
+          "duration_bounds_s": {
+            "velocity_s": 3.75,
+            "acceleration_s": 2.4028114141347543,
+            "jerk_s": 1.4422495703074083
+          },
+          "active_constraints": [
+            "velocity"
+          ],
+          "minimum": {
+            "duration_s": 3.75,
+            "peak_absolute": {
+              "velocity_m_s": 0.5,
+              "acceleration_m_s2": 0.4105601914237339,
+              "jerk_m_s3": 1.1377777777777778
+            },
+            "csv": "csv/move_1000mm-quintic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 4.375,
+            "peak_absolute": {
+              "velocity_m_s": 0.42857142857142855,
+              "acceleration_m_s2": 0.30163605900519225,
+              "jerk_m_s3": 0.7165014577259475
+            },
+            "csv": "csv/move_1000mm-quintic-common.csv",
+            "samples": 1001
+          }
+        },
+        "septic": {
+          "minimum_duration_s": 4.375,
+          "duration_bounds_s": {
+            "velocity_s": 4.375,
+            "acceleration_s": 2.7410195921224814,
+            "jerk_s": 1.3794620881905604
+          },
+          "active_constraints": [
+            "velocity"
+          ],
+          "minimum": {
+            "duration_s": 4.375,
+            "peak_absolute": {
+              "velocity_m_s": 0.5,
+              "acceleration_m_s2": 0.3925257615359631,
+              "jerk_m_s3": 0.626938775510204
+            },
+            "csv": "csv/move_1000mm-septic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 4.375,
+            "peak_absolute": {
+              "velocity_m_s": 0.5,
+              "acceleration_m_s2": 0.3925257615359631,
+              "jerk_m_s3": 0.626938775510204
+            },
+            "csv": "csv/move_1000mm-septic-common.csv",
+            "samples": 1001
+          }
+        }
+      }
+    },
+    {
+      "id": "reverse_100mm",
+      "start_m": 0.2,
+      "end_m": 0.1,
+      "displacement_m": -0.1,
+      "common_duration_s": 0.8667865022252765,
+      "families": {
+        "quintic": {
+          "minimum_duration_s": 0.7598356856515927,
+          "duration_bounds_s": {
+            "velocity_s": 0.375,
+            "acceleration_s": 0.7598356856515927,
+            "jerk_s": 0.6694329500821695
+          },
+          "active_constraints": [
+            "acceleration"
+          ],
+          "minimum": {
+            "duration_s": 0.7598356856515927,
+            "peak_absolute": {
+              "velocity_m_s": 0.2467638774285923,
+              "acceleration_m_s2": 0.9999999999999998,
+              "jerk_m_s3": 13.67704234172866
+            },
+            "csv": "csv/reverse_100mm-quintic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 0.8667865022252765,
+            "peak_absolute": {
+              "velocity_m_s": 0.21631624341015526,
+              "acceleration_m_s2": 0.7684490766284559,
+              "jerk_m_s3": 9.213291902904727
+            },
+            "csv": "csv/reverse_100mm-quintic-common.csv",
+            "samples": 1001
+          }
+        },
+        "septic": {
+          "minimum_duration_s": 0.8667865022252765,
+          "duration_bounds_s": {
+            "velocity_s": 0.4375,
+            "acceleration_s": 0.8667865022252765,
+            "jerk_s": 0.6402895824937471
+          },
+          "active_constraints": [
+            "acceleration"
+          ],
+          "minimum": {
+            "duration_s": 0.8667865022252765,
+            "peak_absolute": {
+              "velocity_m_s": 0.2523689506451811,
+              "acceleration_m_s2": 1.0,
+              "jerk_m_s3": 8.061630415041636
+            },
+            "csv": "csv/reverse_100mm-septic-minimum.csv",
+            "samples": 1001
+          },
+          "common": {
+            "duration_s": 0.8667865022252765,
+            "peak_absolute": {
+              "velocity_m_s": 0.2523689506451811,
+              "acceleration_m_s2": 1.0,
+              "jerk_m_s3": 8.061630415041636
+            },
+            "csv": "csv/reverse_100mm-septic-common.csv",
+            "samples": 1001
+          }
+        }
+      }
+    },
+    {
+      "id": "stationary",
+      "start_m": 0.1,
+      "end_m": 0.1,
+      "displacement_m": 0.0,
+      "common_duration_s": 0.0,
+      "families": {
+        "quintic": {
+          "minimum_duration_s": 0.0,
+          "duration_bounds_s": {
+            "velocity_s": 0.0,
+            "acceleration_s": 0.0,
+            "jerk_s": 0.0
+          },
+          "active_constraints": [
+            "stationary"
+          ],
+          "minimum": {
+            "duration_s": 0.0,
+            "peak_absolute": {
+              "velocity_m_s": 0.0,
+              "acceleration_m_s2": 0.0,
+              "jerk_m_s3": 0.0
+            },
+            "csv": "csv/stationary-quintic-minimum.csv",
+            "samples": 1
+          },
+          "common": {
+            "duration_s": 0.0,
+            "peak_absolute": {
+              "velocity_m_s": 0.0,
+              "acceleration_m_s2": 0.0,
+              "jerk_m_s3": 0.0
+            },
+            "csv": "csv/stationary-quintic-common.csv",
+            "samples": 1
+          }
+        },
+        "septic": {
+          "minimum_duration_s": 0.0,
+          "duration_bounds_s": {
+            "velocity_s": 0.0,
+            "acceleration_s": 0.0,
+            "jerk_s": 0.0
+          },
+          "active_constraints": [
+            "stationary"
+          ],
+          "minimum": {
+            "duration_s": 0.0,
+            "peak_absolute": {
+              "velocity_m_s": 0.0,
+              "acceleration_m_s2": 0.0,
+              "jerk_m_s3": 0.0
+            },
+            "csv": "csv/stationary-septic-minimum.csv",
+            "samples": 1
+          },
+          "common": {
+            "duration_s": 0.0,
+            "peak_absolute": {
+              "velocity_m_s": 0.0,
+              "acceleration_m_s2": 0.0,
+              "jerk_m_s3": 0.0
+            },
+            "csv": "csv/stationary-septic-common.csv",
+            "samples": 1
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+case_id,distance_mm,quintic_duration_s,septic_duration_s,septic_change_percent,quintic_active_bound,septic_active_bound
+move_1mm,1.0,0.14422495703074084,0.13794620881905603,-4.3534408613805535,jerk,jerk
+move_10mm,10.0,0.3107232505953859,0.2971960976381565,-4.353440861380542,jerk,jerk
+move_100mm,100.0,0.7598356856515927,0.8667865022252765,14.075519035667416,acceleration,acceleration
+move_1000mm,1000.0,3.75,4.375,16.666666666666675,velocity,velocity

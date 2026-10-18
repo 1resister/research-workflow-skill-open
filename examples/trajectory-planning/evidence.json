@@ -1,0 +1,50 @@
+{
+  "recorded_on": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "search_scope": "Targeted primary-source verification for an educational comparison; not a systematic review or novelty search.",
+  "queries": [
+    "robot trajectory polynomial quintic seventh order jerk endpoint Modern Robotics time scaling",
+    "Direct open: Northwestern Modern Robotics point-to-point trajectories part 2",
+    "Direct open: pantor/ruckig author repository and arXiv 2105.04830"
+  ],
+  "sources": [
+    {
+      "id": "MR9",
+      "title": "Modern Robotics: 9.1 and 9.2 Point-to-Point Trajectories (Part 2 of 2)",
+      "authors": ["Kevin M. Lynch", "Frank C. Park"],
+      "url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/9-1-and-9-2-point-to-point-trajectories-part-2-of-2/",
+      "access_level": "full_text",
+      "read_scope": "HTML transcript, lines 29-39; no claim to have read the full textbook or watched the video.",
+      "supports": "Fifth-order time scaling accommodates zero endpoint velocity and acceleration; trajectory derivatives depend on path length and duration; S-curves provide another construction.",
+      "does_not_support": "No seventh-order benchmark, novelty, global optimality, or hardware benefit is established by this source.",
+      "license_or_reuse_status": "Cited and briefly paraphrased only; no transcript, figure or textbook redistributed."
+    },
+    {
+      "id": "RUCKIG",
+      "title": "Ruckig author repository",
+      "authors": ["Lars Berscheid and Ruckig contributors"],
+      "url": "https://github.com/pantor/ruckig",
+      "access_level": "full_text",
+      "read_scope": "README overview and links; source code, implementation proof and installed software not evaluated.",
+      "supports": "A mature jerk-limited motion generation method exists; relevant as a future benchmark, not a method implemented here.",
+      "does_not_support": "This study does not compare against Ruckig and cannot claim superiority or equivalent functionality.",
+      "license_or_reuse_status": "README displays MIT; no code or media copied."
+    },
+    {
+      "id": "BKR2021",
+      "title": "Jerk-limited Real-time Trajectory Generation with Arbitrary Target States",
+      "url": "https://arxiv.org/abs/2105.04830",
+      "access_level": "abstract_only",
+      "read_scope": "Landing page only; paper body not read for this run.",
+      "supports": "Bibliographic pointer for future detailed reading.",
+      "does_not_support": "Algorithm details, numerical comparisons or proof claims in this example.",
+      "license_or_reuse_status": "Link only; paper not redistributed."
+    }
+  ],
+  "claim_provenance": [
+    {"claim": "Quintic endpoint position/velocity/acceleration constraints", "kind": "primary_source_and_independent_derivation", "evidence": "MR9 and report.md (original derivation)"},
+    {"claim": "Septic coefficients and continuous-time peaks", "kind": "independent_derivation", "evidence": "report.md and executable script"},
+    {"claim": "Durations and derivative peaks for supplied inputs", "kind": "this_run_only", "evidence": "summary.json, csv/*.csv and quality-checks.json"},
+    {"claim": "Improved vibration, tracking or surface finish", "kind": "untested_hypothesis", "evidence": "No hardware or dynamic plant data"}
+  ]
+}

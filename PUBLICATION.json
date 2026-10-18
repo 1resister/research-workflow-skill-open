@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "checked_on": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "intended_repository": "1resister/research-workflow-skill-open",
+  "release_kind": "original_materials_only",
+  "intended_visibility": "public",
+  "public_release_allowed": true,
+  "source_adaptation_permission_confirmed": false,
+  "source_adaptation_permission_required_for_included_materials": false,
+  "third_party_fulltext_or_assets_included": false,
+  "required_checks": {
+    "original_content_scope_reviewed": true,
+    "attribution_and_license_scope_clear": true,
+    "private_records_and_local_paths_excluded": true,
+    "validation_passed": true
+  },
+  "reason": "Reviewed original-only distribution passed content, attribution, privacy and reproducibility checks. Third-party guide content is excluded; no upstream adaptation license is asserted."
+}

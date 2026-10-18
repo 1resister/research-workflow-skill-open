@@ -1,0 +1,57 @@
+{
+  "checked_on": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "status": "passed",
+  "actual_usage": "Read two original PNG figures, compare their conditions with saved JSON, then generate and inspect two new original figures.",
+  "reproduction": {
+    "exit_code": 0,
+    "stdout": {
+      "status": "passed",
+      "output_files": [
+        "workflow-overview.svg",
+        "duration-tradeoff.svg",
+        "plot-data.csv",
+        "quality-checks.json",
+        "manifest.json"
+      ],
+      "cases": 4
+    },
+    "command_from_repository_root": "python examples/figure-reading-and-design/make_figures.py --summary examples/trajectory-planning/summary.json --output rerun/figure-reading-and-design",
+    "generated_svg_csv_checks_hashes_match_fresh_run": true,
+    "files_compared": 4
+  },
+  "csv_matches_original_json": {
+    "rows_checked": 4,
+    "fields_per_row": 6,
+    "failures": []
+  },
+  "previews": {
+    "workflow-overview.png": {
+      "sha256": "2d018723ee4dfe4e6c45763ef66333a8fde14099be7f8203484caae30a46d50d",
+      "width_px": 1280,
+      "height_px": 700
+    },
+    "duration-tradeoff.png": {
+      "sha256": "641d34559a520c34d32cc165722aac804ba2234531073cb25667d3d5dab7d2cb",
+      "width_px": 1280,
+      "height_px": 730
+    }
+  },
+  "preview_export": "Chromium screenshots at SVG intrinsic 1280x700 / 1280x730 viewport; generated SVGs remain editable; PNG byte identity across platforms is not promised.",
+  "visual_review": {
+    "both_pngs_actually_viewed": true,
+    "no_visible_text_clipping_or_overlap": true,
+    "marker_legend_and_axis_labels_checked": true,
+    "solid_and_dashed_flow_meaning_checked": true,
+    "septic_color_aligned_with_original_red": true,
+    "independent_agent_review_completed": true,
+    "independent_review_scope": "Two source PNGs and original JSON; both new PNGs and all 4 CSV rows. Agent reported no required corrections; root aligned the septic color with the original figure after optional feedback."
+  },
+  "original_trajectory_numeric_tests_rerun": false,
+  "external_source_reading_scope_changed": false,
+  "limitations": [
+    "Teaching illustration only; selected four positive-distance cases.",
+    "No hardware or closed-loop experiment; no new 201-check numerical run is claimed.",
+    "Journal physical sizing, formal color-vision simulation and publication compliance remain unchecked."
+  ]
+}

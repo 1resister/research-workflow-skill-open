@@ -1,0 +1,1013 @@
+{
+  "status": "passed",
+  "checks_passed": 201,
+  "checks_total": 201,
+  "method": "Independent coefficient evaluation and derivative-root isolation; floating-point numerical audit, not formal proof.",
+  "checks": [
+    {
+      "name": "move_1mm/quintic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "move_1mm/quintic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_1mm/quintic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "move_1mm/quintic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_1mm/quintic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/quintic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "move_1mm/septic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_1mm/septic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "move_1mm/septic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_1mm/septic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/septic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1mm/common_duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "move_10mm/quintic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_10mm/quintic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "move_10mm/quintic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_10mm/quintic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/quintic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "move_10mm/septic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_10mm/septic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "move_10mm/septic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_10mm/septic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/septic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_10mm/common_duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "move_100mm/quintic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_100mm/quintic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "move_100mm/quintic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_100mm/quintic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/quintic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "move_100mm/septic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_100mm/septic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "move_100mm/septic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_100mm/septic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/septic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_100mm/common_duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "move_1000mm/quintic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_1000mm/quintic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "move_1000mm/quintic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_1000mm/quintic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/quintic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "move_1000mm/septic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_1000mm/septic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "move_1000mm/septic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "move_1000mm/septic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/septic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "move_1000mm/common_duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "reverse_100mm/quintic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "reverse_100mm/quintic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "reverse_100mm/quintic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "reverse_100mm/quintic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/quintic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "reverse_100mm/septic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/minimum/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/minimum/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/minimum/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/minimum/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "reverse_100mm/septic/minimum/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/shorter_is_infeasible",
+      "passed": true,
+      "detail": "A 0.0001% shortening must violate at least one limit."
+    },
+    {
+      "name": "reverse_100mm/septic/minimum/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/common/strict_time_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/common/independent_sample_values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/common/sampled_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/common/continuous_interval_limits",
+      "passed": true,
+      "detail": "All critical points plus endpoints, not only sampled points."
+    },
+    {
+      "name": "reverse_100mm/septic/common/recorded_peaks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/septic/common/endpoint_jerk_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reverse_100mm/common_duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/quintic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "stationary/quintic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/quintic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/quintic/minimum/stationary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/quintic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/quintic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/quintic/common/stationary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/septic/minimal_duration",
+      "passed": true,
+      "detail": "Extrema from generic derivative-root isolation."
+    },
+    {
+      "name": "stationary/septic/minimum/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/septic/minimum/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/septic/minimum/stationary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/septic/common/sample_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/septic/common/endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/septic/common/stationary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stationary/common_duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "complete_case_family_mode_coverage",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

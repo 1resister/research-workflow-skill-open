@@ -1,0 +1,19 @@
+{
+  "generator": "figure-reading-and-design-v1",
+  "python": "3.14.7",
+  "input_sha256": "1bf2ed6c23251bbacb28ed5e6811b9e2f43902cba4989296711b9fc947ce0b2c",
+  "source_kind": "previously computed deterministic trajectory summary; no third-party image or icon copied",
+  "script_sha256": "77b4f2bbf6cb4bc7aa4d549d64c6b3a9098bf5f34d77aebcd07115baf4832882",
+  "command_argv": [
+    "--summary",
+    "examples/trajectory-planning/summary.json",
+    "--output",
+    "examples/figure-reading-and-design/generated"
+  ],
+  "outputs": {
+    "workflow-overview.svg": "83b903deeefff635712e087918a22f56d405b63290aa32262235442915a62760",
+    "duration-tradeoff.svg": "e3b99935be3ade42282d18f342eed029e80448210f790a9daa6ddc3a2745dca7",
+    "plot-data.csv": "d981a9b5e8a51fc7165ba052ccce8b29eb3c92d3bd739c51233922eb97144ff7",
+    "quality-checks.json": "c6524cabb723b3f886cb9d9c3ea5cc5c1a3339228b63e394da800c6a0c47802c"
+  }
+}

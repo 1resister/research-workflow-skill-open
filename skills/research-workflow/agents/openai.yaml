@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研工作流"
+  short_description: "以可追溯证据和可复现实验推进科研入门、轨迹规划研究及汇报准备"
+  default_prompt: "使用 $research-workflow 为机器人或机床轨迹规划任务建立研究问题、可复现实验和证据明确的结果报告。"
